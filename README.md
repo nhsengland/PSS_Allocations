@@ -1,9 +1,10 @@
-# PSS_Allocations
+# Welcome to the PSS Allocations repo
+Here, you will find a collection of source code and files that are useful for colleagues continuing the analytical work 
 
 # Flow chart / graph for Variations Tool data sources
 This flowchart describes the totality of data sources and modelling that are dependencies for the Variations Tool as it currently stands.
 
-## Data Sources
+# Data Sources
 - PLCM:
   - PLD
   - Drugs
@@ -73,5 +74,10 @@ graph LR
     
     PSS_Tool --> Share_Results
 ```
+
+# Purpose and Audience
+This work (at the time of publication) has three primary purposes, described below. These are the success criteria against which to assess the outputs. It Should be noted that there are several things which this modelling work is not intended to be (and hence is not a measure of its success), namely, it is not intended as a model of Provider or Site resource allocation, neither descriptively or normatively. This is a separate piece of work that regional and ICB colleagues will need to undertake using local intelligence, geography, transportation links, etc., in order to design the most appropriate way of organisation a population-based allocation of resources.
+
+
 
 # Notes on the Modelling Procedure
