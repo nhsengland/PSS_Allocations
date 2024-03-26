@@ -120,6 +120,13 @@ A collection of semi-raw data has been curated and dropped onto the data warehou
 - To do
   - Next
   - And then
+$$
+360\degree = 2\pi radians
+$$
+
+$$
+A=\begin{bmatrix}1&2&3\cr4&5&6\cr7&8&9\end{bmatrix}
+$$
 
 # Methodology
 
@@ -127,9 +134,24 @@ The Variations Tool describes the results and of the physical health PSS need mo
 The Variations Tool then analyses the distance between actual and modelled spend in terms of two further analyses: (1) access rates, and (2) intensity of care. ‘Access rate’ in this context refers to the proportion of the population who are seen by the relevant clinical service; it is a ratio of a count of heads (rather than of clinical activity) to the size of the population. Clinical activity and its relative costliness is then accounted for by (2) intensity of care. This is also a ratio – of PSS spend in the salient way to the count of patients in (1).
 Taken together, this amounts to a system of calculations that can be unified into a single equation:
 
-    Spend/Population = Spend/Patients × Patients/Population
+$$ 
+    \frac{Spend}{Population} = 
+    \frac{Spend}{Patients} \times \frac{Patients}{Population}
+$$
+
 
 The right hand side of the equation yields the left hand side when we notice that ‘Patients’ cancel out in the algebra. By taking patient count as the basis for both access rates and spend-intensity, we put actual people at the heart of this analysis and reveal some import insights. This is plotted in the Tool in several places as a ‘mountain plot’ (see tab 2. ACCESS AND SPEND COMPARISONS). The upshot is that ICBs are able to see not only their own distance from target, but also their distance in 3-dimensional space from their benchmark group. (The 3 dimensions in question are access rate, intensity, and resource use per head of population).
+
+# Additional Considerations
+-	Notes for: 
+    - NCC
+    - ACC
+-	Undiagnosed mortality:
+    - Cancer
+    - Cardiac
+-	Transition to Model System
+    - Contact and email
+
 
 # VBA Code in Benchmarking Tool
 There is code behind the following worksheets: -
