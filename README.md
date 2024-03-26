@@ -117,6 +117,8 @@ A collection of semi-raw data has been curated and dropped onto the data warehou
 - [NHSE_Sandbox_DC].[dbo].[varTool_Spend_Model$]
 
 # Data Quality Issues
+There is a non-trivial issue with the qulity of the data being used in this analysis.
+
 - To do
   - Next
   - And then
