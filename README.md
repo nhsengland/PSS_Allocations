@@ -14,11 +14,11 @@ The author of this document can happy to be contacted following transition to th
 
 | Name           | Role          | Contact      | Comment      |
 | -------------  | ------------- | ------------ | ------------- |
-| Ashley Dickson | Head of Payment Development, CFO | Ashley.Dickson@nhs.net | Previously, Senior Analytical Lead, PSS. Outgoing analytical lead.      |
-| Donald Franklin | New Role tbc | Donald.Franklin@nhs.net | Formerly, Senior Responsible Owner of product |
-| Sam Leat | Analytical Office | samuel.leat@nhs.net| Incoming Analyst |
-| Ioannis Andreadis | Senior Analyst | ioannis.andreadis@nhs.net | Incoming Analytical Lead |
-| Heather Ross | Senior Analytical Lead | heather.ross1@nhs.net | Incoming SRO |
+| Ashley Dickson | Head of Payment Development | Ashley.Dickson@nhs.net | Previously, Senior Analytical Lead. Outgoing analytical lead.      |
+| Donald Franklin | New Role tbc | Donald.Franklin@nhs.net | Former SRO |
+| Sam Leat | Analytical Office | Samuel.Leat@nhs.net| Incoming Analyst |
+| Ioannis Andreadis | Senior Analyst | Ioannis.Andreadis@nhs.net | Incoming Analytical Lead |
+| Heather Ross | Senior Analytical Lead | Heather.Ross1@nhs.net | Incoming SRO |
 
 It is understood at this stage that Sam and Ioannis will be taking over the operational dat-to-day management of the tool and its dissemination.
 
