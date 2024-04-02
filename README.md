@@ -18,11 +18,11 @@ The author of this document is happy to be contacted following transition to the
 | Ioannis Andreadis | Senior Analyst | Ioannis.Andreadis@nhs.net | Incoming Analytical Lead |
 | Heather Ross | Senior Analytical Lead | Heather.Ross1@nhs.net | Incoming SRO |
 
-It is understood at this stage that Sam and Ioannis will be taking over the operational dat-to-day management of the tool and its dissemination.
+It is understood at this stage that Sam and Ioannis will be taking over the operational day-to-day management of the tool and its dissemination.
 
 
 ## Flow chart / graph for Variations Tool data sources
-This flowchart describes the totality of data sources and modelling that are dependencies for the Variations Tool as it currently stands. It is provided as a very high-level overview of the steps involved from inception to delivery, and will be updated in the coming days to ensure that steps and repo files are named and numbered in accordance with one another.
+This flowchart describes the totality of data sources and modelling that are dependencies for the Variations Tool as it currently stands. It is provided as a very high-level overview of the steps involved from inception to delivery.
 
 ```mermaid
 
@@ -50,10 +50,10 @@ graph LR
         Ashley[R Script Neonatal CC] --> Neonatal_Model
         Ashley[R Script ACC Elective] --> ACC_Elective_Model
         Ashley[R Script ACC Non-Elective] --> ACC_NonElective_Model
-        Sion[STATA Script Cancer] --> Cancer_Model
-        Sion[STATA Script Cardiac] --> Cardiac_Model
-        Sion[STATA Script Renal] --> Renal_Model
-        Daniel[STATA Scripts Physical Health - Batches] --> Physical_Health_Model
+        Sion[STATA Script] --> Cancer_Model
+        Sion[STATA Script] --> Cardiac_Model
+        Sion[STATA Script] --> Renal_Model
+        Daniel[PSS Physical Health Data - Batches] --> Physical_Health_Model
     end
     
     Preprocessing --> Modelling
@@ -77,7 +77,7 @@ graph LR
     Combine_Model_Outputs --> Need_Weighted_Population
     Need_Weighted_Population --> Need_Indices
     
-    Ashley[Extract Utilisation Data] --> Utilisation_Data
+    Ashley[Utilisation Data] --> Utilisation_Data
     Combine_Model_Outputs --> Need_Indices
     Need_Indices --> PSS_Tool
     Utilisation_Data --> PSS_Tool

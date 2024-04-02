@@ -1,3 +1,5 @@
+' Template code to generate the chart-click functionality revealing statistics of benchmark ICB groups.
+
 Option Explicit
 
 Private Sub Chart_Activate()
